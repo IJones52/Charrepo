@@ -1,0 +1,192 @@
+@import "compass/css3";
+*{
+    margin: 0 0;
+}
+.homeNav{
+position: absolute;
+width: 1920px;
+height: 74px;
+left: 0px;
+top: 0px;
+
+background: #2fa4e7 ;
+}
+
+.title{
+position: absolute;
+height: 200px;
+width: 200px;
+top:-60px;
+left: 121px;
+color: white;
+font-family: Nokora;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 63px;
+}
+
+.navButton{
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    left: 1380px;
+    top: 30px;
+    color: white;
+    font-family: Nokora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.navButton2{
+    position: absolute;
+    width: 122px;
+    height: 24px;
+    left: 1470px;
+    top: 30px;
+    color: white;
+    font-family: Nokora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.navButton3{
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 1610px;
+    top: 29px;
+    color: white;
+    font-family: Nokora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.navButton4{
+  position: absolute;
+  width: 143px;
+  height: 24px;
+  left: 1760px;
+  top: 29px;
+  color: white;
+  font-family: Nokora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+.tableTitle{
+    position: relative;
+    margin:0 40px;
+    margin-top: 50px;
+    top: 70px;
+}
+.table{
+    position: relative;
+    top:70px;
+
+}
+
+table {
+  display: block;
+  max-height: 400px;
+  max-width: fit-content;
+  overflow-y: scroll;
+  overflow-x:unset;
+  font-family: 'Arial';
+  margin: 15px 40px;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #2fa4e7 ;
+ 
+
+  }
+  th, td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    position: sticky;
+    top:0;
+    opacity: 1;
+  }
+  th {
+    background: #2fa4e7 ;
+    color: #fff;
+    
+    font-size: 12px;
+
+  }
+
+
+.form{
+    position: relative;
+    top: 100px;
+    left: 340px;
+    width: 1060px;
+    color: rgb(109, 109, 109);
+    border-top: 2px solid#2fa4e7 ;
+    border-bottom: 2px solid#2fa4e7 ;
+ 
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+    0px 10px 20px rgba(0,0,0,0.05),
+    0px 20px 20px rgba(0,0,0,0.05),
+    0px 30px 20px rgba(0,0,0,0.05);
+
+}
+
+.tab {
+    position: relative;
+    top:100px;
+    left: 340px;
+    width: 1080px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+
+  .tab button.active {
+    background-color: #2fa4e7 ;
+    color: white;
+  }
+  
+
+  .tabcontent {
+      
+    display: none;
+    padding: 6px 12px;
+    
+    border-top: none;
+  }
+
+  #login{
+    float:center;
+    width: 300px;
+  }
+
+  .repos{
+    position: relative;
+    top: 100px;
+  }
